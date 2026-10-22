@@ -36,7 +36,7 @@ body::after { opacity: .022; }
     color: var(--gold-bright);
 }
 
-/* An ivory wash keeps dark lettering legible across the mountain photograph. */
+/* An ivory wash keeps dark lettering legible across the cover photograph. */
 .cover__img { background-color: #e3dfd3; }
 .cover__shade {
     background: linear-gradient(to bottom,
