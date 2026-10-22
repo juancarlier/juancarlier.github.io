@@ -49,15 +49,9 @@ body::after { opacity: .022; }
 .cover__name, .cover__cn { color: var(--ink); text-shadow: none; }
 .cover__caption { color: var(--ink); text-shadow: none; }
 .cover__hint { color: var(--ink-soft); }
-.sky canvas { filter: sepia(1) brightness(.45); opacity: .36; }
+.sky canvas { filter: sepia(1) brightness(.45); opacity: .54; }
 .toc a { color: #535047; }
-.toc a i, .toc a:hover i, .toc a:focus-visible i, .toc a.is-active i {
-    flex: 0 0 18px;
-    width: 18px;
-    height: 2px;
-    opacity: .72;
-    transition: background-color .45s var(--ease);
-}
+.toc a i { opacity: .72; height: 1.2px; }
 .toc a:hover, .toc a:focus-visible { color: var(--ink); }
 .toc a.is-active { color: var(--gold-bright); }
 
