@@ -1,6 +1,15 @@
 /* Small content adaptations; the original homepage theme is retained. */
 .research-entry { margin: 0 0 2rem; }
 .research-entry h4 { font-size: 1.25rem; color: var(--ink); }
+.research-entry h4 a {
+    background-image: linear-gradient(var(--gold), var(--gold)),
+        linear-gradient(var(--line-strong), var(--line-strong));
+    background-size: 0% 1px, 100% 1px;
+    background-position: 0 100%, 0 100%;
+}
+.research-entry h4 a:hover, .research-entry h4 a:focus-visible {
+    background-size: 100% 1px, 100% 1px;
+}
 .research-entry .inst__role, .research-entry .inst__dept { margin-bottom: .35rem; }
 .sb-cn { font-family: var(--f-body); font-size: 1rem; letter-spacing: 0; }
 .footer p + p { margin-top: .5rem; font-size: .85rem; }
