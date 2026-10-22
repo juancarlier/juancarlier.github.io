@@ -1,0 +1,7 @@
+/* Small content adaptations; the original homepage theme is retained. */
+.research-entry { margin: 0 0 2rem; }
+.research-entry h4 { font-size: 1.25rem; color: var(--ink); }
+.research-entry .inst__role, .research-entry .inst__dept { margin-bottom: .35rem; }
+.sb-cn { font-family: var(--f-body); font-size: 1rem; letter-spacing: 0; }
+.footer p + p { margin-top: .5rem; font-size: .85rem; }
+.pub { display: block; }

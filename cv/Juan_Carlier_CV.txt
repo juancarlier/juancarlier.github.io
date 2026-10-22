@@ -1,0 +1,71 @@
+JUAN CARLIER
+ College Park, MD | jcarlier@umd.edu | (517) 455 6093 | linkedin.com/in/juancarlier | github.com/jcarlier1
+
+EDUCATION
+University of Maryland, A. James Clark School of Engineering	College Park, MD
+Ph.D. student in Electrical and Computer Engineering	August 2026 – Present
+
+Michigan State University, College of Engineering & Honors College	East Lansing, MI
+Bachelor of Science, Computer Engineering	August 2022 – May 2026
+Second Major in Computational and Applied Mathematics, concentration in Machine Learning	GPA: 3.98/4.00
+
+RESEARCH
+GAMMA Lab, University of Maryland	College Park, MD
+Ph.D. Student (Advisor: Professor Dinesh Manocha)	August 2026 – Present
+•	Investigate computer vision and learning methods for autonomous robotic systems, with applications in scene reconstruction and understanding, robot navigation, and visual environmental monitoring.
+•	Study robustness and safety of unmanned ground vehicles and autonomous vehicles, with emphasis on reliable perception and operation under real-world uncertainty
+•	Explore social navigation and efficient reasoning methods for crowded, dynamic environments, including approaches that balance semantic understanding, interaction awareness, and real-time computational constraints.
+
+Smart Sensing Lab, Michigan State University	East Lansing, MI
+Research Scholar (Advisor: Professor D. Morris)	September 2024 – May 2026
+•	Developed a real-time visual localization system for autonomous race cars, aimed to achieve sub-meter accuracy
+•	Improved visual place recognition under domain shift through transfer learning of vision transformers and foundation models, incorporating a semantic-segmentation module to provide scene context
+•	Collaborated with PoliMOVE-MSU researchers to develop an efficient 3D object detection model integrating CNNs and residual MLPs, enhanced through data augmentation, and optimize for autonomous racecars competing in the Indy Autonomous Challenge
+
+International Research Experience in Istanbul Technical University (ITU) LivingLab	Istanbul, Türkiye
+Research Fellow (Advisor: Professor S. Bogosyan)	May 2025 – August 2025
+•	Integrated 3D perception and localization algorithms with multi-institutional teams developing autonomous driving systems, contributing to real-world testing on open-architecture vehicles.
+•	Led the design of a mixed-reality testing and training platform that fuses measured vehicle dynamics and real-world sensor footage with Gaussian splatting, applying SEMBAS failure-frontier search for automated edge-case mining to improve 3D object-detection robustness and transfer to physical datasets.
+•	Develop experiments to quantify the sim-to-real gap across virtual-asset fidelity levels, evaluating the hypothesis that mixed-reality training outperforms synthetic-only baselines on safety-critical scenarios.
+
+PUBLICATIONS AND PRESENTATIONS
+Research Papers
+•	H. Irshaid, J. Carlier, P. Dahal, D. Morris, "MonoRace: Real-Time Monocular 3D Perception for High-Speed Racing Autonomy" Submitted to ICRA 2027.
+•	J. An, G. D. Seneviratne, Y. Abeysinghe, O. Hoffman, J. Carlier, D. Manocha, "Steernav: Steering Navigational Foundation Models using Velocity and Geometry" RA-L, preparing for submission.
+•	F. Alvankarian, J. Liang, J. Carlier, O. Hoffman, D. Manocha. “ProPhNav: Learning-Based Proprioceptive Physical Property Classification for Outdoor Navigation” RA-L, preparing for submission.
+
+Poster Presentations
+•	J. Carlier, & D. Morris. (2025). CNN-Based Visual Localization for Autonomous Race Cars. Poster presented at the University Undergraduate Research and Arts Forum (UURAF) in East Lansing, Michigan.
+
+EMPLOYMENT 
+Institute for Cyber-Enabled Research (ICER) - Software Development Engineer Intern	January 2024 – May 2024
+•	Developed Python/Linux integrations between ColdFront and MSU research databases to improve tracking and management of HPC-supported research.
+
+MSU Computer Science Department - Teaching Assistant	August 2023 – May 2024
+•	Led four weekly Python lab/help sessions for non-CS majors, providing instruction in programming fundamentals and problem solving.
+•	Led six mentors delivering computer science instruction to 30+ students in Belize and Ghana, overseeing curriculum and mentor preparation.
+ 
+HONORS AND AWARDS
+•	Dean’s Fellowship | August 2026 - May 2028
+•	Hymen and Miriam Stein Research Scholarship | Summer 2025-Spring 2026
+•	Honors College Gillette Research Scholar | 2024-2025
+•	International Physics Olympiad, Honorable Mention | June 2022
+
+EXTRACURRICULAR ACTIVITIES & LEADERSHIP
+Spartan Autonomous Racing Club (Indy Autonomous Challenge)	East Lansing, MI
+Localization Team Lead	September 2024 – May 2026
+Lead a 4-member team developing and refining state-of-the-art localization algorithms for autonomous racecars, coordinating research integration, weekly progress meetings, and strategies within the Indy Autonomous Challenge
+
+Precision Agriculture Robotics Club (ASABE Robotics Design Competition)	East Lansing, MI
+Navigation Team Lead	May 2024 – August 2024
+Developed an autonomous navigation system robot using OpenCV Canny and Houghlines algorithms to track edges and PID control with real-time trajectory correction integrated on ROS2. Achieved 5th place at ASABE Robotics 2024
+
+SELECTED COURSEWORK
+Computer Science (CSE): Differentiable Programming (838B), Computer Networks (422), Information Retrieval (Abroad), Computer Systems (325), Algorithms and Data Structures (331) 
+Electrical Engineering (ECE): Random Processes (620), Computer and Communication Security (456), Smart Sensor Systems (431), Signal Processing (366), Microprocessors and Digital Systems (331) 
+Math (MTH): Mathematical Machine Learning (483), Discrete Mathematics (481), Applied Linear Algebra (415), Numerical Methods (Abroad), Honors Analysis (327H)
+
+SKILLS
+Programming: Python • C++ • MATLAB • JavaScript • SQL
+ML & Computer Vision: PyTorch • OpenCV • YOLO • Transformers • Vision Foundation Models • 3D Detection
+Robotics & Systems: ROS 2 • IsaacSim • Gazebo • CUDA • Docker • Git • Linux • HPC

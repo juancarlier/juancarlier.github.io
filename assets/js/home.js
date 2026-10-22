@@ -380,7 +380,10 @@
 
     /* ---------------------------------------------------------- anchors */
 
-    function closeMenu() { body.classList.remove('menu-open'); }
+    function closeMenu() {
+        body.classList.remove('menu-open');
+        if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+    }
 
     document.addEventListener('click', function (e) {
         var a = e.target.closest ? e.target.closest('a[href^="#"]') : null;
@@ -398,7 +401,10 @@
     });
 
     var menuBtn = document.querySelector('.topbar__menu');
-    if (menuBtn) menuBtn.addEventListener('click', function () { body.classList.toggle('menu-open'); });
+    if (menuBtn) menuBtn.addEventListener('click', function () {
+        var open = body.classList.toggle('menu-open');
+        menuBtn.setAttribute('aria-expanded', String(open));
+    });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMenu(); });
 
     /* ---------------------------------------------------------- news fade hint */
