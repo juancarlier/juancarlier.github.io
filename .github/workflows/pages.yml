@@ -26,6 +26,7 @@ jobs:
           cp assets/css/home.css assets/css/personal.css _site/assets/css/
           cp assets/js/home.js _site/assets/js/
           cp homepage_assets/cover_2560.jpg homepage_assets/cover_1280.jpg homepage_assets/juan-carlier.jpg _site/homepage_assets/
+          cp homepage_assets/umd-logo.png _site/homepage_assets/
           cp cv/Juan_Carlier_CV.txt _site/cv/
       - uses: actions/upload-pages-artifact@v3
         with:
