@@ -603,7 +603,7 @@ html:not(.js) .section__rule { transform: scaleX(1); }
 .pub__venue a {
     background-image:
         linear-gradient(var(--gold), var(--gold)),
-        linear-gradient(rgba(235, 230, 218, .28), rgba(235, 230, 218, .28));
+        linear-gradient(var(--line-strong), var(--line-strong));
     background-size: 0% 1px, 100% 1px;
     background-position: 0 100%, 0 100%;
 }
@@ -612,7 +612,7 @@ html:not(.js) .section__rule { transform: scaleX(1); }
 .pub__venue a {
     background-image:
         linear-gradient(var(--gold-bright), var(--gold-bright)),
-        linear-gradient(rgba(201, 169, 106, .35), rgba(201, 169, 106, .35));
+        linear-gradient(var(--line-strong), var(--line-strong));
 }
 
 .interests {
