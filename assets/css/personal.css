@@ -5,3 +5,71 @@
 .sb-cn { font-family: var(--f-body); font-size: 1rem; letter-spacing: 0; }
 .footer p + p { margin-top: .5rem; font-size: .85rem; }
 .pub { display: block; }
+
+/* Warm paper, charcoal ink, and aged bronze retain the original editorial feel. */
+:root {
+    color-scheme: light;
+    --bg: #f7f3ea;
+    --ink: #282e2b;
+    --ink-soft: #4e554e;
+    --ink-mute: #686459;
+    --line: rgba(66, 59, 44, .16);
+    --line-strong: rgba(66, 59, 44, .36);
+    --gold: #755322;
+    --gold-bright: #594018;
+    --gold-dim: rgba(117, 83, 34, .08);
+    --on-gold: #fffaf0;
+}
+
+html { scrollbar-color: #a49a86 var(--bg); }
+body::after { opacity: .022; }
+.sb-name, .section__title, .bio-lead,
+.section--intro .bio-lead, .section--intro .bio-lead a,
+.interests li b, .inst__name, .pub__title, .pub__authors b,
+.service__title, .topbar__name { color: var(--ink); }
+.sb-cn { color: var(--ink-soft); }
+.section--intro a {
+    background-image: linear-gradient(var(--gold), var(--gold)),
+        linear-gradient(var(--line-strong), var(--line-strong));
+}
+.section--intro a:hover, .section--intro a:focus-visible {
+    color: var(--gold-bright);
+}
+
+/* An ivory wash keeps dark lettering legible across the mountain photograph. */
+.cover__img { background-color: #e3dfd3; }
+.cover__shade {
+    background: linear-gradient(to bottom,
+        rgba(247, 243, 234, .86) 0%,
+        rgba(247, 243, 234, .86) 50%,
+        rgba(247, 243, 234, .94) 78%,
+        var(--bg) 100%);
+}
+.cover__inner::before { background: none; }
+.cover__name, .cover__cn { color: var(--ink); text-shadow: none; }
+.cover__caption { color: var(--gold); text-shadow: none; }
+.cover__hint { color: var(--ink-soft); }
+.sky canvas { filter: sepia(1) brightness(.45); opacity: .25; }
+
+.portrait, .pub__thumb, .gallery__frame {
+    background: #ede7db;
+    border-color: #a4967e;
+    box-shadow: 0 2px 12px rgba(66, 59, 44, .08);
+}
+.portrait::after, .pub__thumb::after, .gallery__frame::after {
+    background: transparent;
+    box-shadow: inset 0 0 0 1px rgba(66, 59, 44, .08);
+}
+.pub__thumb:hover {
+    border-color: var(--gold);
+    box-shadow: 0 2px 16px rgba(66, 59, 44, .12);
+}
+.pill { border-color: #96856b; }
+.pill:hover, .pill:focus-visible {
+    box-shadow: 0 8px 20px -12px rgba(117, 83, 34, .35);
+}
+.news::after { background: linear-gradient(to bottom, rgba(247, 243, 234, 0), var(--bg)); }
+.news__list li:hover { background: rgba(117, 83, 34, .045); }
+.topbar { background: rgba(247, 243, 234, .97); }
+.drawer { background: #f7f3ea; }
+.topbar__menu:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
